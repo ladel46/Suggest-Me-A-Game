@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Suggest-Me-A-Game/static/css/main.492b02b8.css",
+    "main.js": "/Suggest-Me-A-Game/static/js/main.e8870345.js",
+    "static/js/787.9e58ac69.chunk.js": "/Suggest-Me-A-Game/static/js/787.9e58ac69.chunk.js",
+    "static/media/chivo-mono-all-400-normal.woff": "/Suggest-Me-A-Game/static/media/chivo-mono-all-400-normal.9676ba81b0071c3e9512.woff",
+    "static/media/chivo-mono-latin-400-normal.woff2": "/Suggest-Me-A-Game/static/media/chivo-mono-latin-400-normal.5e472dcc8453cbc6c278.woff2",
+    "static/media/chivo-mono-latin-ext-400-normal.woff2": "/Suggest-Me-A-Game/static/media/chivo-mono-latin-ext-400-normal.beb5302b40297d54e068.woff2",
+    "static/media/chivo-mono-vietnamese-400-normal.woff2": "/Suggest-Me-A-Game/static/media/chivo-mono-vietnamese-400-normal.2c63f718873dd900be95.woff2",
+    "index.html": "/Suggest-Me-A-Game/index.html",
+    "main.492b02b8.css.map": "/Suggest-Me-A-Game/static/css/main.492b02b8.css.map",
+    "main.e8870345.js.map": "/Suggest-Me-A-Game/static/js/main.e8870345.js.map",
+    "787.9e58ac69.chunk.js.map": "/Suggest-Me-A-Game/static/js/787.9e58ac69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.492b02b8.css",
+    "static/js/main.e8870345.js"
+  ]
+}
