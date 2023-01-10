@@ -141,7 +141,7 @@ const location = useLocation();
 
     <ChakraProvider theme={theme}>
       <main >
-        <Link to="/" onClick={()=>{
+        <Link to="/Suggest-Me-A-Game" onClick={()=>{
           if (authorize){
           setAuthorize(!authorize)}
           if (authorize1){
@@ -160,13 +160,13 @@ const location = useLocation();
         <AnimatePresence mode='wait' >
         <ScrollTopTop>
         <Routes location={location} key={location.pathname}>
-        <Route  path="/" element={<PickingPlatform platforms={platforms} setPlatforms={setPlatforms}  Authorized1={authorize1} setAuthorize1={setAuthorize1} setGenre={setGenre}/>}/>
+        <Route  path="/Suggest-Me-A-Game" element={<PickingPlatform platforms={platforms} setPlatforms={setPlatforms}  Authorized1={authorize1} setAuthorize1={setAuthorize1} setGenre={setGenre}/>}/>
         <Route  path="/pickingenre" element={
             authorize1 ? (
               <PickingCard setAuthorize1={setAuthorize1} Authorized1={authorize1} genre={genre} setGenre={setGenre} setSlugs={setSlugs} isMounted={isMounted} tags={tags} setTags={setTags} Authorized={authorize} setAuthorize={setAuthorize} genre={genre} games={games} setGames={setGames} 
                             setAuthorize2={setAuthorize2} Authorized2={authorize2}/>
             ) : (
-              <Navigate replace to="/"/>
+              <Navigate replace to="/Suggest-Me-A-Game"/>
             )
           }/>
         <Route  path="/pickingGame" element={
@@ -174,14 +174,14 @@ const location = useLocation();
               <PickingGame  setSlugs={setSlugs} isMounted={isMounted} tags={tags} setTags={setTags} Authorized={authorize} setAuthorize={setAuthorize} genre={genre} games={games} setGames={setGames} 
                             setAuthorize2={setAuthorize2} Authorized2={authorize2}/>
             ) : (
-              <Navigate replace to="/"/>
+              <Navigate replace to="/Suggest-Me-A-Game"/>
             )
           }/>
         <Route  path="/gameSuggestion" element={
             authorize2 ? (
               <GameSuggestion KEY={KEY} setKEY={setKEY}  platforms={platforms} setPlatforms={setPlatforms} Data={data} slugs={slugs} loadingg={loadingg} percentage={percentagee} Tags={tags} Authorized={authorize} setAuthorize={setAuthorize} setGenre={setGenre} genre={genre}/>
             ) : (
-              <Navigate replace to="/"/>
+              <Navigate replace to="/Suggest-Me-A-Game"/>
             )
           }/>
         </Routes>
