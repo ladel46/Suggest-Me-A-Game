@@ -121,11 +121,11 @@ const {  value, getRootProps, getRadioProps } = useRadioGroup({
     <Center>
       <Card    position={'relative'} overflow={'hidden'} borderRadius={{xs:'0',sm:'0',lg:'10'}} borderColor={'#7d8488'} backgroundColor={'black'} width={'100vw'} height={{xs:'100%',sm:'100%', '2xl':'83vh'}}>
         <Tabs   isLazy={true} orientation={'vertical'}   variant='solid-rounded' colorScheme={'orange'}>
-        <TabList  position={'fixed'}   color={'white'}  >
+        <TabList  position={'fixed'}     color={'white'}  >
         {props.Data[0]==undefined?
           null
           :
-          <Tab key={'Tab1'}  py={{xs:'7.7vh',sm:'7.7vh',lg:'5.3vh',xl:'6.5vh'}} fontSize={{xs:'0.8rem',sm:'1.1rem',lg:'1.3rem'}} >
+          <Tab  key={'Tab1'}  py={{xs:'7.7vh',sm:'7.7vh',lg:'5.3vh',xl:'6.5vh'}} fontSize={{xs:'0.8rem',sm:'1.1rem',lg:'1.3rem'}} >
              1
             </Tab>
         }
