@@ -25,10 +25,10 @@ A website that suggests a video game to you based on which games you like
 
 ### Screenshot
 
-![](./src/imgs/Platform.png)
-![](./src/components/imgs/Genre.png)
-![](./src/components/imgs/Games.png)
-![](./src/components/imgs/Suggest.png)
+![](./src/Imgs/Platform.png)
+![](./src/Imgs/Genre.png)
+![](./src/Imgs/Games.png)
+![](./src/Imgs/Suggest.png)
 
 ### Links
 
